@@ -79,25 +79,26 @@ class _LoginPageState extends State<LoginPage> {
                     showDialog(
                       context: context,
                       builder: (BuildContext context) {
-                        return Expanded(
-                          child: AlertDialog(
-                            title: Text('Invalid Email and Password'),
-                            actions: [
-                              TextButton(
+                        return AlertDialog(
+                          title: Text('Invalid Email and Password'),
+                          actions: [
+                            SizedBox(
+                              width: double.infinity,
+                              child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: Colors.black,
+                                  padding: EdgeInsets.all(10),
+                                ),
                                 onPressed: () {
                                   Navigator.pop(context);
                                 },
-                                child: Container(
-                                  padding: EdgeInsets.all(10),
-                                  child: Text(
-                                    'OK',
-                                    style: TextStyle(color: Colors.white),
-                                  ),
-                                  color: Colors.black,
+                                child: Text(
+                                  'OK',
+                                  style: TextStyle(color: Colors.white),
                                 ),
                               ),
-                            ],
-                          ),
+                            ),
+                          ],
                         );
                       },
                     );
@@ -106,25 +107,26 @@ class _LoginPageState extends State<LoginPage> {
                   showDialog(
                     context: context,
                     builder: (BuildContext context) {
-                      return Expanded(
-                        child: AlertDialog(
-                          title: Text(e.toString()),
-                          actions: [
-                            TextButton(
+                      return AlertDialog(
+                        title: Text(e.toString()),
+                        actions: [
+                          SizedBox(
+                            width: double.infinity,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.black,
+                                padding: EdgeInsets.all(10),
+                              ),
                               onPressed: () {
                                 Navigator.pop(context);
                               },
-                              child: Container(
-                                padding: EdgeInsets.all(10),
-                                child: Text(
-                                  'OK',
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                                color: Colors.black,
+                              child: Text(
+                                'OK',
+                                style: TextStyle(color: Colors.white),
                               ),
                             ),
-                          ],
-                        ),
+                          ),
+                        ],
                       );
                     },
                   );
@@ -151,25 +153,26 @@ class _LoginPageState extends State<LoginPage> {
                     showDialog(
                       context: context,
                       builder: (BuildContext context) {
-                        return Expanded(
-                          child: AlertDialog(
-                            title: Text('Invalid Email and Password'),
-                            actions: [
-                              TextButton(
+                        return AlertDialog(
+                          title: Text('Invalid Email and Password'),
+                          actions: [
+                            SizedBox(
+                              width: double.infinity,
+                              child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: Colors.black,
+                                  padding: EdgeInsets.all(10),
+                                ),
                                 onPressed: () {
                                   Navigator.pop(context);
                                 },
-                                child: Container(
-                                  padding: EdgeInsets.all(10),
-                                  child: Text(
-                                    'OK',
-                                    style: TextStyle(color: Colors.white),
-                                  ),
-                                  color: Colors.black,
+                                child: Text(
+                                  'OK',
+                                  style: TextStyle(color: Colors.white),
                                 ),
                               ),
-                            ],
-                          ),
+                            ),
+                          ],
                         );
                       },
                     );
@@ -178,25 +181,26 @@ class _LoginPageState extends State<LoginPage> {
                   showDialog(
                     context: context,
                     builder: (BuildContext context) {
-                      return Expanded(
-                        child: AlertDialog(
-                          title: Text(e.toString()),
-                          actions: [
-                            TextButton(
+                      return AlertDialog(
+                        title: Text(e.toString()),
+                        actions: [
+                          SizedBox(
+                            width: double.infinity,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.black,
+                                padding: EdgeInsets.all(10),
+                              ),
                               onPressed: () {
                                 Navigator.pop(context);
                               },
-                              child: Container(
-                                padding: EdgeInsets.all(10),
-                                child: Text(
-                                  'OK',
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                                color: Colors.black,
+                              child: Text(
+                                'OK',
+                                style: TextStyle(color: Colors.white),
                               ),
                             ),
-                          ],
-                        ),
+                          ),
+                        ],
                       );
                     },
                   );
@@ -225,25 +229,26 @@ class _LoginPageState extends State<LoginPage> {
                     showDialog(
                       context: context,
                       builder: (BuildContext context) {
-                        return Expanded(
-                          child: AlertDialog(
-                            title: Text('Invalid Email and Password'),
-                            actions: [
-                              TextButton(
+                        return AlertDialog(
+                          title: Text('Invalid Email and Password'),
+                          actions: [
+                            SizedBox(
+                              width: double.infinity,
+                              child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: Colors.black,
+                                  padding: EdgeInsets.all(10),
+                                ),
                                 onPressed: () {
                                   Navigator.pop(context);
                                 },
-                                child: Container(
-                                  padding: EdgeInsets.all(10),
-                                  child: Text(
-                                    'OK',
-                                    style: TextStyle(color: Colors.white),
-                                  ),
-                                  color: Colors.black,
+                                child: Text(
+                                  'OK',
+                                  style: TextStyle(color: Colors.white),
                                 ),
                               ),
-                            ],
-                          ),
+                            ),
+                          ],
                         );
                       },
                     );
@@ -252,25 +257,26 @@ class _LoginPageState extends State<LoginPage> {
                   showDialog(
                     context: context,
                     builder: (BuildContext context) {
-                      return Expanded(
-                        child: AlertDialog(
-                          title: Text(e.toString()),
-                          actions: [
-                            TextButton(
+                      return AlertDialog(
+                        title: Text(e.toString()),
+                        actions: [
+                          SizedBox(
+                            width: double.infinity,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.black,
+                                padding: EdgeInsets.all(10),
+                              ),
                               onPressed: () {
                                 Navigator.pop(context);
                               },
-                              child: Container(
-                                padding: EdgeInsets.all(10),
-                                child: Text(
-                                  'OK',
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                                color: Colors.black,
+                              child: Text(
+                                'OK',
+                                style: TextStyle(color: Colors.white),
                               ),
                             ),
-                          ],
-                        ),
+                          ),
+                        ],
                       );
                     },
                   );
@@ -283,25 +289,26 @@ class _LoginPageState extends State<LoginPage> {
           showDialog(
             context: context,
             builder: (BuildContext context) {
-              return Expanded(
-                child: AlertDialog(
-                  title: Text('Please check the entered details'),
-                  actions: [
-                    TextButton(
+              return AlertDialog(
+                title: Text('Please check the entered details'),
+                actions: [
+                  SizedBox(
+                    width: double.infinity,
+                    child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.black,
+                        padding: EdgeInsets.all(10),
+                      ),
                       onPressed: () {
                         Navigator.pop(context);
                       },
-                      child: Container(
-                        padding: EdgeInsets.all(10),
-                        child: Text(
-                          'OK',
-                          style: TextStyle(color: Colors.white),
-                        ),
-                        color: Colors.black,
+                      child: Text(
+                        'OK',
+                        style: TextStyle(color: Colors.white),
                       ),
                     ),
-                  ],
-                ),
+                  ),
+                ],
               );
             },
           );

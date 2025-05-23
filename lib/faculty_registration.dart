@@ -82,13 +82,13 @@ class _Faculty_registrationState extends State<Faculty_registration> {
               );
             },
           );
-        } else if (!email.contains('@tkmce.ac.in')) {
+        } else if (!email.contains('@gmail.com')) {
           showDialog(
             context: context,
             builder: (BuildContext context) {
               return Expanded(
                 child: AlertDialog(
-                  title: Text('E-mail is not from TKMCE domain'),
+                  title: Text('E-mail is not from the domain'),
                   actions: [
                     TextButton(
                       onPressed: () {
